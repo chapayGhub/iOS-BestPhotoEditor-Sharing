@@ -23,9 +23,9 @@ Setup
 ##### Example
 
 ```
- NSURL *instagramURL = [NSURL URLWithString:@"bestphotoeditor://"];
-    if ([[UIApplication sharedApplication] canOpenURL:instagramURL]) {
-        [[UIApplication sharedApplication] openURL:instagramURL];
+ NSURL *photoEditorURL = [NSURL URLWithString:@"bestphotoeditor://"];
+    if ([[UIApplication sharedApplication] canOpenURL: photoEditorURL]) {
+        [[UIApplication sharedApplication] openURL: photoEditorURL];
     }
 ```
 
