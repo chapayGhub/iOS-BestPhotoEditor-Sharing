@@ -17,7 +17,7 @@ Setup
 
 ### Custom URL Scheme
 
-bestphotoeditor://  will open our app.
+`bestphotoeditor://` will open our app.
 
 <code> 
 
