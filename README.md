@@ -15,9 +15,9 @@ $ git clone --recursive https://github.com/glaretechnology/iOS-BestPhotoEditor-S
 Setup 
 ===================
 
-### Custom URL Scheme
+- ### Custom URL Scheme
 
-- `bestphotoeditor://` will open our app.
+ `bestphotoeditor://` will open our app.
 
 
 ##### Example
