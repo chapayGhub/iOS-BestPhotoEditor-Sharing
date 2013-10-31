@@ -19,6 +19,9 @@ Setup
 
 - `bestphotoeditor://` will open our app.
 
+
+##### Example
+
 ```
  NSURL *instagramURL = [NSURL URLWithString:@"bestphotoeditor://"];
     if ([[UIApplication sharedApplication] canOpenURL:instagramURL]) {
