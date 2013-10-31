@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15365A4B182247EA00667534 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15365A47182247EA00667534 /* ViewController.m */; };
+		15365A4C182247EA00667534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15365A49182247EA00667534 /* AppDelegate.m */; };
+		15365A531822480200667534 /* iOS-BestPhotoEditor-ShareDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15365A4D1822480200667534 /* iOS-BestPhotoEditor-ShareDemo-Info.plist */; };
+		15365A541822480200667534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15365A4F1822480200667534 /* main.m */; };
+		15365A551822480200667534 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15365A501822480200667534 /* Default-568h@2x.png */; };
+		15365A561822480200667534 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 15365A511822480200667534 /* Default.png */; };
+		15365A571822480200667534 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15365A521822480200667534 /* Default@2x.png */; };
+		1546A223181680CB0091A830 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546A222181680CB0091A830 /* UIKit.framework */; };
+		1546A225181680CB0091A830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546A224181680CB0091A830 /* Foundation.framework */; };
+		1546A227181680CB0091A830 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546A226181680CB0091A830 /* CoreGraphics.framework */; };
+		1546A249181683720091A830 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546A248181683720091A830 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15365A47182247EA00667534 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		15365A48182247EA00667534 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		15365A49182247EA00667534 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		15365A4A182247EA00667534 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		15365A4D1822480200667534 /* iOS-BestPhotoEditor-ShareDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS-BestPhotoEditor-ShareDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		15365A4E1822480200667534 /* iOS-BestPhotoEditor-ShareDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-BestPhotoEditor-ShareDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		15365A4F1822480200667534 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		15365A501822480200667534 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		15365A511822480200667534 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		15365A521822480200667534 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		1546A21F181680CB0091A830 /* iOS-BestPhotoEditor-ShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-BestPhotoEditor-ShareDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1546A222181680CB0091A830 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1546A224181680CB0091A830 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1546A226181680CB0091A830 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1546A248181683720091A830 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1546A21C181680CB0091A830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1546A249181683720091A830 /* MobileCoreServices.framework in Frameworks */,
+				1546A223181680CB0091A830 /* UIKit.framework in Frameworks */,
+				1546A225181680CB0091A830 /* Foundation.framework in Frameworks */,
+				1546A227181680CB0091A830 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1546A216181680CB0091A830 = {
+			isa = PBXGroup;
+			children = (
+				1546A248181683720091A830 /* MobileCoreServices.framework */,
+				1546A228181680CB0091A830 /* iOS-BestPhotoEditor-ShareDemo */,
+				1546A221181680CB0091A830 /* Frameworks */,
+				1546A220181680CB0091A830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1546A220181680CB0091A830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1546A21F181680CB0091A830 /* iOS-BestPhotoEditor-ShareDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1546A221181680CB0091A830 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1546A222181680CB0091A830 /* UIKit.framework */,
+				1546A224181680CB0091A830 /* Foundation.framework */,
+				1546A226181680CB0091A830 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1546A228181680CB0091A830 /* iOS-BestPhotoEditor-ShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				15365A47182247EA00667534 /* ViewController.m */,
+				15365A48182247EA00667534 /* ViewController.h */,
+				15365A49182247EA00667534 /* AppDelegate.m */,
+				15365A4A182247EA00667534 /* AppDelegate.h */,
+				1546A229181680CB0091A830 /* Supporting Files */,
+			);
+			path = "iOS-BestPhotoEditor-ShareDemo";
+			sourceTree = "<group>";
+		};
+		1546A229181680CB0091A830 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15365A4D1822480200667534 /* iOS-BestPhotoEditor-ShareDemo-Info.plist */,
+				15365A4E1822480200667534 /* iOS-BestPhotoEditor-ShareDemo-Prefix.pch */,
+				15365A4F1822480200667534 /* main.m */,
+				15365A501822480200667534 /* Default-568h@2x.png */,
+				15365A511822480200667534 /* Default.png */,
+				15365A521822480200667534 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1546A21E181680CB0091A830 /* iOS-BestPhotoEditor-ShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1546A245181680CB0091A830 /* Build configuration list for PBXNativeTarget "iOS-BestPhotoEditor-ShareDemo" */;
+			buildPhases = (
+				1546A21B181680CB0091A830 /* Sources */,
+				1546A21C181680CB0091A830 /* Frameworks */,
+				1546A21D181680CB0091A830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-BestPhotoEditor-ShareDemo";
+			productName = "iOS-BestPhotoEditor-ShareDemo";
+			productReference = 1546A21F181680CB0091A830 /* iOS-BestPhotoEditor-ShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1546A217181680CB0091A830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Glare;
+			};
+			buildConfigurationList = 1546A21A181680CB0091A830 /* Build configuration list for PBXProject "iOS-BestPhotoEditor-ShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1546A216181680CB0091A830;
+			productRefGroup = 1546A220181680CB0091A830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1546A21E181680CB0091A830 /* iOS-BestPhotoEditor-ShareDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1546A21D181680CB0091A830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15365A531822480200667534 /* iOS-BestPhotoEditor-ShareDemo-Info.plist in Resources */,
+				15365A551822480200667534 /* Default-568h@2x.png in Resources */,
+				15365A561822480200667534 /* Default.png in Resources */,
+				15365A571822480200667534 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1546A21B181680CB0091A830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15365A4B182247EA00667534 /* ViewController.m in Sources */,
+				15365A4C182247EA00667534 /* AppDelegate.m in Sources */,
+				15365A541822480200667534 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1546A243181680CB0091A830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Glare Technology (545BJ476E5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Glare Technology (545BJ476E5)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0061BE70-C00D-44BD-A3CF-F2E2160D1A85";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0061BE70-C00D-44BD-A3CF-F2E2160D1A85";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1546A244181680CB0091A830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Glare Technology (545BJ476E5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Glare Technology (545BJ476E5)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "0061BE70-C00D-44BD-A3CF-F2E2160D1A85";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0061BE70-C00D-44BD-A3CF-F2E2160D1A85";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1546A246181680CB0091A830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Glare Technology (545BJ476E5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-BestPhotoEditor-ShareDemo-Prefix.pch";
+				INFOPLIST_FILE = "iOS-BestPhotoEditor-ShareDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0061BE70-C00D-44BD-A3CF-F2E2160D1A85";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0061BE70-C00D-44BD-A3CF-F2E2160D1A85";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1546A247181680CB0091A830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Glare Technology (545BJ476E5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-BestPhotoEditor-ShareDemo-Prefix.pch";
+				INFOPLIST_FILE = "iOS-BestPhotoEditor-ShareDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0061BE70-C00D-44BD-A3CF-F2E2160D1A85";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0061BE70-C00D-44BD-A3CF-F2E2160D1A85";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1546A21A181680CB0091A830 /* Build configuration list for PBXProject "iOS-BestPhotoEditor-ShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1546A243181680CB0091A830 /* Debug */,
+				1546A244181680CB0091A830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1546A245181680CB0091A830 /* Build configuration list for PBXNativeTarget "iOS-BestPhotoEditor-ShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1546A246181680CB0091A830 /* Debug */,
+				1546A247181680CB0091A830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1546A217181680CB0091A830 /* Project object */;
+}

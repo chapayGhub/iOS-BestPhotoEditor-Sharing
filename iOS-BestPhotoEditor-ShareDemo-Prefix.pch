@@ -1,0 +1,17 @@
+//
+// Prefix header for all source files of the 'iOS-BestPhotoEditor-ShareDemo' target in the 'iOS-BestPhotoEditor-ShareDemo' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#define APP_LINK            @"https://itunes.apple.com/us/app/best-photo-editor-photoshop/id582695799?mt=8"
