@@ -54,12 +54,12 @@
         return;
     }
     
-    NSURL *photoEditingURL = [NSURL URLWithString:@"photoediting://"];
+    NSURL *photoEditingURL = [NSURL URLWithString:@"bestphotoeditor://"];
     if ([[UIApplication sharedApplication] canOpenURL:photoEditingURL])
     {
         UIImage * aImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Image Document.jpg" ofType:nil]];
         NSData *data = UIImageJPEGRepresentation(aImage, 0.75);
-        NSString  *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/test.peimg"];
+        NSString  *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/image.peimg"];
         [data writeToFile:jpgPath atomically:YES];
         
         NSURL *imageFile = [NSURL fileURLWithPath:jpgPath];
