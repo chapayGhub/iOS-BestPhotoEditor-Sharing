@@ -59,7 +59,7 @@
     {
         UIImage * aImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Image Document.jpg" ofType:nil]];
         NSData *data = UIImageJPEGRepresentation(aImage, 0.75);
-        NSString  *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/image.pe"];
+        NSString  *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/test.pe"];
         [data writeToFile:jpgPath atomically:YES];
         
         NSURL *imageFile = [NSURL fileURLWithPath:jpgPath];
@@ -93,6 +93,11 @@
     NSURL *instagramURL = [NSURL URLWithString:@"bestphotoeditor://"];
     if ([[UIApplication sharedApplication] canOpenURL:instagramURL]) {
         [[UIApplication sharedApplication] openURL:instagramURL];
+    }
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"You have not installed Photo Editor App in device." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
     }
 }
 
