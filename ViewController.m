@@ -59,12 +59,12 @@
     {
         UIImage * aImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Image Document.jpg" ofType:nil]];
         NSData *data = UIImageJPEGRepresentation(aImage, 0.75);
-        NSString  *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/image.peimg"];
+        NSString  *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/image.pe"];
         [data writeToFile:jpgPath atomically:YES];
         
         NSURL *imageFile = [NSURL fileURLWithPath:jpgPath];
         
-        _documentInterActionController.UTI = @"com.glaresoftware.photoediting.peimg";
+        _documentInterActionController.UTI = @"com.glaresoftware.photoediting.pe";
         _documentInterActionController = [self setupControllerWithURL:imageFile usingDelegate:self];
         _documentInterActionController = [UIDocumentInteractionController interactionControllerWithURL:imageFile];
         [_documentInterActionController presentOpenInMenuFromRect:CGRectMake(0, 0, 0, 0) inView:self.view animated:YES];
