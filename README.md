@@ -15,7 +15,7 @@ $ git clone --recursive https://github.com/glaretechnology/iOS-BestPhotoEditor-S
 Setup 
 ===================
 
-- ### Custom URL Scheme
+#### Custom URL Scheme
 
  `bestphotoeditor://` will open our app.
 
@@ -29,7 +29,7 @@ Setup
     }
 ```
 
-- ### abc
+#### abc
 
 You can use the [Document Interaction API](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDocumentInteractionController_class/Reference/Reference.html) to open your photo in <b>[Best Photo Editor](https://itunes.apple.com/us/app/best-photo-editor-photoshop/id582695799?mt=8)</b> for editing and you can also share photo to social networks.
 
