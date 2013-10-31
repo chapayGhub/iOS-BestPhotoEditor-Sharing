@@ -17,15 +17,14 @@ Setup
 
 ### Custom URL Scheme
 
-`bestphotoeditor://` will open our app.
+- `bestphotoeditor://` will open our app.
 
-<code> 
-
+```
  NSURL *instagramURL = [NSURL URLWithString:@"bestphotoeditor://"];
     if ([[UIApplication sharedApplication] canOpenURL:instagramURL]) {
         [[UIApplication sharedApplication] openURL:instagramURL];
     }
-</code>
+```
 
 
 Requirements 
