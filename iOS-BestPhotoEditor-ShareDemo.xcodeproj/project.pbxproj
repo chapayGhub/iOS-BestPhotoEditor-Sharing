@@ -14,6 +14,7 @@
 		15365A551822480200667534 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15365A501822480200667534 /* Default-568h@2x.png */; };
 		15365A561822480200667534 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 15365A511822480200667534 /* Default.png */; };
 		15365A571822480200667534 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15365A521822480200667534 /* Default@2x.png */; };
+		15365A5F18225F7A00667534 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15365A5E18225F7A00667534 /* ViewController.xib */; };
 		1546A223181680CB0091A830 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546A222181680CB0091A830 /* UIKit.framework */; };
 		1546A225181680CB0091A830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546A224181680CB0091A830 /* Foundation.framework */; };
 		1546A227181680CB0091A830 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546A226181680CB0091A830 /* CoreGraphics.framework */; };
@@ -31,6 +32,7 @@
 		15365A501822480200667534 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		15365A511822480200667534 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
 		15365A521822480200667534 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		15365A5E18225F7A00667534 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = SOURCE_ROOT; };
 		1546A21F181680CB0091A830 /* iOS-BestPhotoEditor-ShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-BestPhotoEditor-ShareDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1546A222181680CB0091A830 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1546A224181680CB0091A830 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,10 +86,11 @@
 		1546A228181680CB0091A830 /* iOS-BestPhotoEditor-ShareDemo */ = {
 			isa = PBXGroup;
 			children = (
-				15365A47182247EA00667534 /* ViewController.m */,
 				15365A48182247EA00667534 /* ViewController.h */,
-				15365A49182247EA00667534 /* AppDelegate.m */,
+				15365A47182247EA00667534 /* ViewController.m */,
+				15365A5E18225F7A00667534 /* ViewController.xib */,
 				15365A4A182247EA00667534 /* AppDelegate.h */,
+				15365A49182247EA00667534 /* AppDelegate.m */,
 				1546A229181680CB0091A830 /* Supporting Files */,
 			);
 			path = "iOS-BestPhotoEditor-ShareDemo";
@@ -161,6 +164,7 @@
 				15365A551822480200667534 /* Default-568h@2x.png in Resources */,
 				15365A561822480200667534 /* Default.png in Resources */,
 				15365A571822480200667534 /* Default@2x.png in Resources */,
+				15365A5F18225F7A00667534 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

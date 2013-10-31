@@ -88,6 +88,14 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:APP_LINK]];
 }
 
+- (IBAction)openApp:(id)sender
+{
+    NSURL *instagramURL = [NSURL URLWithString:@"bestphotoeditor://"];
+    if ([[UIApplication sharedApplication] canOpenURL:instagramURL]) {
+        [[UIApplication sharedApplication] openURL:instagramURL];
+    }
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

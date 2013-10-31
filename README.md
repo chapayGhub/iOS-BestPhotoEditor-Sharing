@@ -12,6 +12,22 @@ Run the following commands to get local copy:
 $ git clone --recursive https://github.com/glaretechnology/iOS-BestPhotoEditor-Sharing.git
 
 
+Setup 
+===================
+
+### Custom URL Scheme
+
+bestphotoeditor://  will open our app.
+
+<code> 
+
+ NSURL *instagramURL = [NSURL URLWithString:@"bestphotoeditor://"];
+    if ([[UIApplication sharedApplication] canOpenURL:instagramURL]) {
+        [[UIApplication sharedApplication] openURL:instagramURL];
+    }
+</code>
+
+
 Requirements 
 ===================
 
