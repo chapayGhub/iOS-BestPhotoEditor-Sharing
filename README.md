@@ -31,7 +31,7 @@ Setup
 
 - #### Open app with image/photo
 
-You can use the [Document Interaction API](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDocumentInteractionController_class/Reference/Reference.html) to open your photo in Best Photo Editor for editing and you can also share photo to social networks.
+You can use the [Document Interaction API](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDocumentInteractionController_class/Reference/Reference.html) to open your photo in <b>Best Photo Editor</b> for editing and you can also share photo to social networks.
 
 
 
